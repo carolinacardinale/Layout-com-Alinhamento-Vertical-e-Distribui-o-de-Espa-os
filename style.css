@@ -1,0 +1,19 @@
+html, body {
+    height: 100%; /* Define a altura total da página para permitir centralização vertical */
+}
+
+.flex-container {
+    display: flex; /* Torna o contêiner flexível */
+    justify-content: space-between; /* Distribui o espaço igualmente entre as caixas */
+    align-items: center; /* Centraliza verticalmente as caixas */
+    height: 100%; /* Altura total para centralização vertical */
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+.box {
+    background-color: lightcoral;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
